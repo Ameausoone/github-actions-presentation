@@ -23,13 +23,23 @@ else
 fi
 
 # If a tag triggered the deploy, we deploy to a folder having the tag name
+# Same if it is a branch different of "gh-pages" or "master"
 # otherwise we are on master and we deploy into latest
 set +u
-DEPLOY_DIR="${DOCS_DIR}/${TRAVIS_TAG}"
 if [ -n "${TRAVIS_TAG}" ]; then
+    echo "== Using tag ${TRAVIS_TAG}"
+    DEPLOY_DIR="${DOCS_DIR}/${TRAVIS_TAG}"
     # Generate QRCode and overwrite the default one
     make chmod
     make qrcode
+elif [ -n "${TRAVIS_BRANCH}" ]; then
+    echo "== Using branch ${TRAVIS_BRANCH}"
+    DEPLOY_DIR="${DOCS_DIR}/${TRAVIS_BRANCH}"
+    # Generate QRCode and overwrite the default one
+    make chmod
+    make qrcode
+else
+    DEPLOY_DIR="${DOCS_DIR}"
 fi
 set -u
 
