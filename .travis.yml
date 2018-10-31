@@ -20,6 +20,7 @@ deploy:
     verbose: true
     on:
       all_branches: true
+      condition: $TRAVIS_BRANCH != ^gh-pages$
   - provider: pages
     local-dir: ./docs/
     skip-cleanup: true
