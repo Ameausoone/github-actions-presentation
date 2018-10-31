@@ -1,7 +1,11 @@
 
 # If no tag present, then the URL sends you to the root of the gh-page
 # aka. "https://dduportal.github.io/traefik-presentation/" with a trailing slash
+ifdef TRAVIS_TAG
 PRESENTATION_URL ?= https://dduportal.github.io/traefik-presentation/$(TRAVIS_TAG)
+else
+PRESENTATION_URL ?= https://dduportal.github.io/traefik-presentation/$(TRAVIS_BRANCH)
+endif
 export PRESENTATION_URL
 
 all: clean build verify
