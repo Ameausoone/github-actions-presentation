@@ -1,8 +1,8 @@
 {
     "name": "slides",
     "version": "1.0.0",
-    "description": "Slides",
-    "repository": "https://github.com/jlevesy/slides",
+    "description": "Damien DUPORTAL 's presentation",
+    "repository": "https://github.com/dduportal/slides",
     "dependencies": {
         "highlightjs": "^9.10.0",
         "reveal.js": "3.7.0",
