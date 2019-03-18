@@ -1,34 +1,40 @@
 [%notitle]
-= FOSDEM 2019 - Go Lightning Talk
+= Kubernetes the "ARM" way - 
 include::./attributes.adoc[]
 
 [{invert}]
-== FOSDEM 2019
+== Kubernetes the "ARM" way
 [.title]
-Go Lightning Talk
+DevOpsPro 2019 Vilnius
 
-image::qrcode.png["QRCode to this presentation",height=150]
+// image::qrcode.png["QRCode to this presentation",height=150]
 
-// //// Speaker Slide and Company slide
 == Whoami
 
-* Julien LEVESY:
-// ** link:https://traefik.io/[Træfik]'s Developer @ link:https://containo.us/[Containous] 
-// * link:https://twitter.com/JLevesy[icon:twitter[] @JLevesy]
-// * link:https://github.com/jlevesy[icon:github[] jlevesy]
+* Damien DUPORTAL:
+** link:https://traefik.io/[Træfik,window=_blank]'s Developer Advocate @
+link:https://containo.us/[Containous,window=_blank] & Freelancer
+* link:https://twitter.com/DamienDuportal[icon:twitter[] @DamienDuportal,window=_blank]
+* link:https://github.com/dduportal[icon:github[] dduportal,window=_blank]
 
-// //// end of Speaker Slide
+image::damien.jpg[height=200]
+
+[{invert}]
+== How to use these slides?
+
+* *Browse the slides:* Use the arrows
+** Change chapter: Left/Right arrows
+** Next or previous slide: Top and bottom arrows
+
+* *Overview of the slides:* keyboard's shortcut "kbd:[o]"
+
+* *Speaker mode (and notes):* keyboard's shortcut "kbd:[s]"
+
+// ///////////////////////
+// Include chapter here with a blank line between each
+// Notice the offset to have chapters as autonomous documents
+// ///////////////////////
+:leveloffset: +1
 
 
-// [{invert}]
-// == How to use these slides?
-
-// * *Browse the slides:* Use the arrows
-// ** Change chapter: Left/Right arrows
-// ** Next or previous slide: Top and bottom arrows
-
-// * *Overview of the slides:* keyboard's shortcut "kbd:[o]"
-
-// * *Speaker mode (and notes):* keyboard's shortcut "kbd:[s]"
-
-== Thanks
+:leveloffset: -1
