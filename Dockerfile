@@ -7,7 +7,7 @@ RUN apk add --no-cache \
       curl \
       git \
       tini \
-  && npm install -g gulp@next
+  && npm install -g gulp@4.0.2
 
 # Install App's dependencies (dev and runtime)
 COPY ./package.json /app/package.json

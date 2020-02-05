@@ -1,34 +1,29 @@
 
-= Træfik: The Cloud Native Edge Router
+= Github Actions
 include::./includes/attributes.adoc[]
 
-image::traefik-logo-white-background.png["Træfik's Logo",height=150]
+image::github-actions-logo.png["Github Actions",height=150]
 
-image::qrcode.svg["QRCode to this presentation",height=150]
-[.small]
+// FIXME set up presentation url
 Presentation available at link:{presentationUrl}[]
 
 // //// Speaker Slide and Company slide
 == Whoami
 
-* Damien DUPORTAL:
-** link:https://traefik.io/[Træfik]'s Developer Advocate @
-link:https://containo.us/[Containous] and Freelancer
-** Former Training Engineer @ CloudBees
-* link:https://twitter.com/DamienDuportal[icon:twitter[] @DamienDuportal]
-* link:https://github.com/dduportal[icon:github[] dduportal]
+* Antoine Méausoone
+//** link:https://traefik.io/[Træfik]'s Developer Advocate @
+//link:https://containo.us/[Containous] and Freelancer
+//** Former Training Engineer @ CloudBees
+* link:https://twitter.com/ameausoone[icon:twitter[] @AMeausoone]
+* link:https://github.com/ameausoone[icon:github[] ameausoone]
 
-image::damien.jpg[height=200]
 
-== Containous
+== Sfeir
 
-* link:https://containo.us[]
-* We Believe in Open Source
-* We Deliver Træfik
-* Commercial Support for Træfik
-* 12 people, 90% technical experts
+// TODO Setup sfeir page
+* link:https://sfeir.com[sfeir.com]
 
-image::containous-logo.png["Containous Logo"]
+//image::contaiinous-logo.png["Containous Logo"]
 // //// end of Speaker Slide and Company slide
 
 
@@ -38,13 +33,45 @@ image::containous-logo.png["Containous Logo"]
 // ///////////////////////
 :leveloffset: +1
 
-include::./includes/traefik-project.adoc[]
+//TODO
 
-include::./includes/why-traefik.adoc[]
+// Details on "jobs"
+// platform
+// Condition:
+// script shell
+//
+// uses:
+// Dockerfile
+// dockerimage
+// Build (out of the box action)
+// Action node golang
+//
+// ** Cache
+//
+// script nodejs
+// interact with github api easily
+// GITHUB_TOKEN
+//
+// .github/actions/
+//
+// Partage de repo as an action
+// master, branch, tag, sha
+// action.yml
+//
+// Marketplace
+// Popularity
+//
+// GH the 'S' stands for Security
+// LeftPad, hack
 
-include::./includes/traefik-core-concepts.adoc[]
 
-include::./includes/more-capabilities.adoc[]
+include::./includes/github-actions-introduction.adoc[]
+
+include::./includes/trigger-events.adoc[]
+
+//include::./includes/traefik-core-concepts.adoc[]
+//
+//include::./includes/more-capabilities.adoc[]
 
 :leveloffset: -1
 
