@@ -2,33 +2,28 @@
 = Github Actions
 include::./includes/attributes.adoc[]
 
-image::traefik-logo-white-background.png["Træfik's Logo",height=150]
+image::github-actions-logo.png["Github Actions",height=150]
 
-image::qrcode.svg["QRCode to this presentation",height=150]
-[.small]
+// FIXME set up presentation url
 Presentation available at link:{presentationUrl}[]
 
 // //// Speaker Slide and Company slide
 == Whoami
 
-* Damien DUPORTAL:
-** link:https://traefik.io/[Træfik]'s Developer Advocate @
-link:https://containo.us/[Containous] and Freelancer
-** Former Training Engineer @ CloudBees
-* link:https://twitter.com/DamienDuportal[icon:twitter[] @DamienDuportal]
-* link:https://github.com/dduportal[icon:github[] dduportal]
+* Antoine Méausoone
+//** link:https://traefik.io/[Træfik]'s Developer Advocate @
+//link:https://containo.us/[Containous] and Freelancer
+//** Former Training Engineer @ CloudBees
+* link:https://twitter.com/ameausoone[icon:twitter[] @AMeausoone]
+* link:https://github.com/ameausoone[icon:github[] ameausoone]
 
-image::damien.jpg[height=200]
 
-== Containous
+== Sfeir
 
-* link:https://containo.us[]
-* We Believe in Open Source
-* We Deliver Træfik
-* Commercial Support for Træfik
-* 12 people, 90% technical experts
+// TODO Setup sfeir page
+* link:https://sfeir.com[sfeir.com]
 
-image::containous-logo.png["Containous Logo"]
+//image::contaiinous-logo.png["Containous Logo"]
 // //// end of Speaker Slide and Company slide
 
 
@@ -39,19 +34,7 @@ image::containous-logo.png["Containous Logo"]
 :leveloffset: +1
 
 //TODO
-// Historique
-// Rachat par Microsoft
-// Azure DevOps
-// Format
-// Répertoire
-// .github/workflows/
-//
-// Yaml
-// name:
-// on:
-// jobs:
-//
-// Details on "on:"
+
 // Details on "jobs"
 // platform
 // Condition:
@@ -62,6 +45,8 @@ image::containous-logo.png["Containous Logo"]
 // dockerimage
 // Build (out of the box action)
 // Action node golang
+//
+// ** Cache
 //
 // script nodejs
 // interact with github api easily
@@ -78,12 +63,12 @@ image::containous-logo.png["Containous Logo"]
 //
 // GH the 'S' stands for Security
 // LeftPad, hack
-//
 
-include::./includes/traefik-project.adoc[]
 
-//include::./includes/why-traefik.adoc[]
-//
+include::./includes/github-actions-introduction.adoc[]
+
+include::./includes/trigger-events.adoc[]
+
 //include::./includes/traefik-core-concepts.adoc[]
 //
 //include::./includes/more-capabilities.adoc[]

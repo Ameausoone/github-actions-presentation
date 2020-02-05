@@ -1,0 +1,18 @@
+
+[{invert}]
+= Github Actions
+
+CICD by Github
+
+image::github-actions-logo[Github Actions's Logo]
+
+// Historique
+// Rachat par Microsoft
+// Azure DevOps
+
+== History
+
+// TODO
+* Github Action v1
+* MS buys Github
+* Azure DevOps => Github Actions
